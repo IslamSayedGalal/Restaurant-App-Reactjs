@@ -1,0 +1,30 @@
+
+{
+    "products" : [
+        {
+            
+            "id": 1,
+            "image" : "../../assets/01.jpg",
+            "title": "Rainbow Vegetable Sandwich",
+            "time": "15 - 20",
+            "newPrice": "$10.50",
+            "oldPrice": "$10.50"
+        },
+        {
+            "id":2,
+            "image" : "../../assets/02.jpg",
+            "title": "Vegetarian Burger",
+            "time": "30 - 45",
+            "NewPrice": "$9.20",
+            "oldPrice": "$9.20"
+        },
+        {
+            "id": 3,
+            "image" : "../../assets/03.jpg",
+            "title": "Raspberry Stuffed French Toast",
+            "time": "10 - 15",
+            "newPrice": "$12.50",
+            "oldPrice": "$12.50"
+        }
+    ]
+}
