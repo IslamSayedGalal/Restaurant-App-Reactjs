@@ -1,0 +1,80 @@
+.products{
+    margin-top: 60px;
+}
+
+.products .container .row h3{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #43121d;
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+
+.products .container .row .desc{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+
+.products .container .prod .image img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+@media (max-width: 991px){
+    .products .container .prod .image img{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+@media (max-width: 676px){
+    .products .container .prod .image img{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+.products .container .prod .data h4{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.products .container .prod .data p{
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.products .container .prod .data button{
+    background-color: #a82d49;
+    border: 3px solid #a82d49 ;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 8px 30px;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.products .container .prod .data button:hover{
+    background-color: white;
+    color: #a82d49;
+}
+
+.products .container .prod .data .price .new{
+    font-weight: bold;
+    color: #a82d49;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.products .container .prod .data .price .old{
+    color: #999;
+    text-decoration: line-through;
+    font-size: 20px;
+}

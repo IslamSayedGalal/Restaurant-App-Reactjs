@@ -1,0 +1,44 @@
+
+.VideoSec{
+    background-image: url('../../assets/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 400px;
+    padding-top: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.VideoSec h1{
+    width: 100%;
+    color: #a82d49;
+    text-align: center;
+    margin-top: 40px;
+}
+@media(max-width: 676px){
+    .VideoSec h1{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+.VideoSec p{
+    color: #555;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.VideoSec a{
+    outline: 0;
+    text-decoration: none;
+    transition: .4s;
+    color: #43121d;
+    text-align: center;
+}
+
+.VideoSec a:hover{
+    text-decoration: none;
+    color: #a82d49;
+}

@@ -1,0 +1,68 @@
+.ingredients{
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+.ingredients .center-content{
+    width: 100%;
+}
+.ingredients .row h2{
+    font-size: 28px;
+    line-height: 45px;
+    color: #43121d;
+    font-weight: 700;
+    font-weight: bold;
+    width: 100%;
+}
+
+.ingredients .row p{
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+.ingredients ul li{
+    list-style-type: none;
+    color: #555;
+}
+
+.ingredients ul li span{
+    color: #a82d49;
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+}
+
+.ingredients img{
+    width: 100%;
+    height: 100%;
+}
+
+.ingredients .container .row button{
+    background-color: #a82d49;
+    border: 3px solid #a82d49 ;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 11px 28px;
+    border-radius: 0px;
+}
+
+.ingredients .container .row button a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ingredients .container .row button:hover{
+    background-color: white;
+}
+.ingredients .container .row button:hover a{
+    color: #a82d49;
+}

@@ -1,0 +1,32 @@
+nav{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    max-width: 100%;
+}
+
+nav a{
+    color: #a82c48 !important;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+nav #lastButton{
+    font-size: 15px;
+    line-height: 1.6;
+    background-color: #a82d49;
+    box-sizing: border-box;
+    color: #fff !important;
+    border: 1px solid #a82c48;
+}
+
+nav #lastButton:hover{
+    background-color: transparent;
+    color: #a82c48 !important;
+    transition: .2s ease-in-out;
+}
+nav img{
+    max-width: 100%;
+    height: 90%;
+}

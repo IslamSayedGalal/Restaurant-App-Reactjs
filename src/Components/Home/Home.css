@@ -1,0 +1,23 @@
+.numbers{
+    background-color: #a82d49;
+    padding-top: 85px;
+    padding-bottom: 40px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.numbers .container{
+    margin-top: -50px;
+}
+
+.numbers .container h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.numbers h6{
+    text-transform: uppercase;
+    color: #fff;
+}

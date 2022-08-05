@@ -1,0 +1,57 @@
+.Pride .container .row{
+    background-color: transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.Pride .container .row img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.Pride .container .row h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #43121d;
+    width: 100%;
+    line-height: 45px;
+}
+
+
+
+.Pride .container .row p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #555;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Pride .container .row button{
+    background-color: #a82d49;
+    border: 3px solid #a82d49 ;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 11px 28px;
+    border-radius: 0px;
+}
+
+.Pride .container .row button a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.Pride .container .row button:hover{
+    background-color: white;
+}
+.Pride .container .row button:hover a{
+    color: #a82d49;
+}

@@ -1,0 +1,95 @@
+.Sliders{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+}
+.Sliders h2{
+    margin: 40px 0px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+.Sliders img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 150px;
+    margin-top: 40px;
+    margin-bottom: 220px;
+}
+.Sliders .carousel{
+    background-color: #fff;
+    margin-top: 60px 0px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Sliders .carousel-caption p{
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #111;
+    padding: 0 21% 20px;
+    letter-spacing: 0;
+}
+@media (max-width: 991px) {
+    .Sliders .carousel-caption p{
+        line-height: normal;
+        padding: 0px;
+        font-size: 16px;
+
+    }
+    .Sliders img{
+        margin-bottom: 150px;
+    }
+}
+@media (max-width: 541px) {
+    .Sliders .carousel-caption p{
+        line-height: normal;
+        padding: 0px;
+        font-size: 16px;
+
+    }
+    .Sliders img{
+        margin-bottom: 200px;
+    }
+}
+
+.Sliders .carousel-caption span{
+    color: #a82d49;
+    display: block;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.Sliders .carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left:0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;    
+}
+
+.Sliders .carousel-indicators button{
+    width: 20px;
+    height: 20px;
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    margin: 5px 5px 15px 5px;
+    border-radius: 50%;
+
+}
